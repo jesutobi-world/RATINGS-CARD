@@ -15,7 +15,7 @@ function change_color(){
 }
 function display_thanks(){
     if(document.getElementById('result').innerHTML == ''){
-        alert("You haven't picked given any rating! ")
+        alert("You haven't given any rating! ")
         return false;
     }
     document.getElementById("show_Thanks").style.display = "flex";
