@@ -144,7 +144,67 @@ body{
     color: hsl(217, 12%, 63%);
     font-family: Overpass;
 }
-@media (max-width: 600px){
+/* tablets */
+@media (max-width: 768px){
+    .container{
+        height: 55vw;
+        width: 50vw;
+        border-radius: 3.5vw;
+        padding: 4vw;
+    }
+    .star{
+        width: 5vw;
+        height: 5vw;
+    }
+    .star img{
+        width: 3vw;
+        height: 3vw;
+    }
+    .card-text{
+        gap: 2vw;
+    }
+    .card-text h1{
+        font-size: 3.5vw;
+    }
+    .card-text p{
+        font-size: 2vw;
+    }
+    .circle{
+        width: 5.7vw;
+        height: 5.7vw;
+        font-size: 2.3vw;
+    }
+    .button{
+        height: 4.7vw;
+        border-radius: 3vw;
+        font-size: 2.2vw;
+    }
+    .thanks{
+        height: 55vw;
+        width: 50vw;
+        border-radius: 3.5vw;
+        padding: 4vw;
+    }
+    .thank-image img{
+        height: 13vw;
+        width: 17vw;
+    }
+    #result{
+        width: 30vw;
+        height: 5vw;
+        border-radius: 3.5vw;
+        font-size: 2vw;
+    }
+    .thanks h1{
+        font-size: 3.7vw;
+    }
+    .thanks p{
+        font-size: 2.4vw;
+    }
+    
+}
+/* Large and small mobile phones */
+@media (max-width: 500px){
     .container{
         height: 90vw;
         width: 80vw;
